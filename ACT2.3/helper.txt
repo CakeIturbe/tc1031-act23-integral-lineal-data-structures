@@ -1,0 +1,11 @@
+LinkedList ll;
+	ll.addFront(5);
+	ll.addFront(25);
+	ll.addFront(3);
+	ll.addFront(80);
+	ll.addBack(21);
+	ll.addBack(34);
+	ll.removeBack();
+	ll.removeFront();
+
+    cout<<ll.getFront()<<endl;
